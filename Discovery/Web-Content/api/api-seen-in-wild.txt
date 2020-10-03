@@ -12,48 +12,6 @@ _n
 _ngettext
 _nx
 _x
-GetAccountStatus
-GetRequestCountryCode
-Log
-PersonalDetails
-Report
-ResendValidateCode
-ResetPassword
-SetPassword
-SignIn
-User
-Push
-Get
-AttachReceipt
-ChangePassword
-ChangePrimaryLogin
-CreateChatReport
-CreateReport
-CreateTransaction
-DelegatedAccess
-DeleteLogin
-Domain
-ExportedToCSV
-GetAccountToken
-Graphite
-Inbox
-Policy
-RenameReport
-Reports
-ReportTransactions
-Secure
-SetNameValuePair
-SetNameValuePairs
-ShareReport
-SubmitReport
-TravelReport
-TwoFactorAuth
-UpdateAccount
-UpdatePolicy
-UpdateReceipt
-UpdateTransaction
-VacationDelegate
-test
 About
 abs()
 absint
@@ -258,6 +216,7 @@ ATF_TypeList_Update
 ATF_TypeListScrollBar_OnValueChanged
 ATF_UpdateTitle
 Attachments
+AttachReceipt
 attribute_escape
 AttributeFrame_SetValue
 AttributePointFrame_OnEnter
@@ -825,6 +784,8 @@ CEScrollBar_OnValueChanged
 CFrame_InitTable
 ChangeDungeon
 ChangeParallelID
+ChangePassword
+ChangePrimaryLogin
 ChangeRealm
 ChangeServerList
 ChannelChange_Color_Init
@@ -1329,6 +1290,7 @@ CreateAuctionMoney
 CreateBuffer
 CreateChannel
 CreateCharacter
+CreateChatReport
 CreateCollection
 CreateCraftItem
 CreateDummy
@@ -1353,9 +1315,11 @@ CreatePMIcon
 CreateProximitySensor
 CreatePureShape
 createReader()
+CreateReport
 createShape()
 CreateTestFrame
 CreateTexture
+CreateTransaction
 CreateUI
 CreateUIButton
 CreateUIButtonArray
@@ -1477,6 +1441,7 @@ DefendTowerBloodFrame_OnEvent
 DefendTowerBloodFrame_OnLoad
 DefendTowerBloodFrame_OnUpdate
 degrees()
+DelegatedAccess
 delete_blog_option
 Delete_Channel
 delete_comment_meta
@@ -1490,6 +1455,7 @@ DeleteGarbageItems
 DeleteInboxItem
 DeleteIniEntry
 DeleteIniSection
+DeleteLogin
 DeleteMyPBPost
 DeletePMGroup
 DeleteQuest
@@ -1541,6 +1507,7 @@ do_trackbacks
 DoEmote
 DoesFileExist
 dofile
+Domain
 domain_exists
 double
 DragEmoteItem
@@ -1638,6 +1605,7 @@ ExperienceDebt_OnUpdate
 ExperienceFrame_OnEvent
 ExperienceFrame_OnLoad
 ExperienceStatusBar_Update
+ExportedToCSV
 ExportMesh
 ExportWebService
 extends
@@ -1997,6 +1965,7 @@ GENF_OK_OnClick
 GENF_OnShow
 Gestalt
 GestaltExists
+Get
 get()
 get_404_template
 get_active_blog_for_user
@@ -2221,6 +2190,8 @@ GetAccountBookItems
 GetAccountBookLockMoney
 GetAccountBookTotalMoney
 GetAccountName
+GetAccountStatus
+GetAccountToken
 GetActionBarHideEmpty
 GetActionBarLocked
 GetActionBarSetting
@@ -2634,6 +2605,7 @@ GetRationalBidPrices
 GetRealmInfo
 GetRealTimeSimulation
 GetReplaceSystemKeyword
+GetRequestCountryCode
 GetReserveCharacterInfo
 GetReserveNumCharacters
 GetResourceQuality
@@ -2885,6 +2857,7 @@ GoodsItemButton_OnLoad
 GoodsItemButton_Update
 GoodsItemButton_UpdateCooldown
 grant_super_admin
+Graphite
 green()
 GRF_BottomPageButton_OnClick
 GRF_GuildUpgrade_OnClick
@@ -3693,6 +3666,7 @@ ImportShape
 ImportWebService
 in_category
 in_the_loop
+Inbox
 InboxFrame_Update
 InboxFrameItem_OnClick
 InboxFrameItem_OnEnter
@@ -4003,6 +3977,7 @@ Localization
 locate_template
 LockChannelButton
 LockResources
+Log
 log()
 log_app
 LogIn
@@ -5188,6 +5163,7 @@ PersistentDataRead
 PersistentDataWrite
 PersonalDataFrame_Update
 PersonalDataFrameCheckButton_OnClick
+PersonalDetails
 perspective()
 PEScoreUpdate
 PetAbilityFrame_Update
@@ -5363,6 +5339,7 @@ point()
 PointFrame_Update
 PointFrame_UpdateType
 pointLight()
+Policy
 popMatrix()
 popStyle()
 popuplinks
@@ -5417,6 +5394,7 @@ public
 PublicEncounterFrame_OnUpdate
 PublicEncounterFrame_RetainTime
 PurchaseOrderUtils
+Push
 pushMatrix()
 pushStyle()
 PVector
@@ -5675,11 +5653,16 @@ RemoveParticleObject
 RemoveScript
 RemoveUI
 RemoveUndesirable
+RenameReport
 Rendering
 ReorientShapeBoundingBox
+Report
+Reports
+ReportTransactions
 requestImage()
 RequestTrade
 require_if_theme_supports
+ResendValidateCode
 ResetActionSetting
 ResetCollision
 ResetControlArgument
@@ -5691,6 +5674,7 @@ ResetJoint
 resetMatrix()
 ResetMill
 ResetMilling
+ResetPassword
 ResetPath
 ResetProximitySensor
 ResetScript
@@ -5821,6 +5805,7 @@ SearchPath
 second()
 SecondsToTimeAbbrev
 secret_salt_warning
+Secure
 seems_utf8
 select
 SelectBattleGroundRoom
@@ -5997,6 +5982,8 @@ SetModelProperty
 SetModuleMenuItemState
 SetMultiDisplay
 SetNameSuffix
+SetNameValuePair
+SetNameValuePairs
 SetNavigationMode
 SetNpcTrackWorldMapZone
 SetNumLock
@@ -6014,6 +6001,7 @@ SetObjectSizeValues
 SetObjectSpecialProperty
 SetObjectStringParameter
 SetPage
+SetPassword
 SetPathPosition
 SetPathTargetNominalVelocity
 SetPattern
@@ -6086,6 +6074,7 @@ ShadowDetailSlider_SetValue
 Shape
 shape()
 shapeMode()
+ShareReport
 shearX()
 shearY()
 Shell
@@ -6104,6 +6093,7 @@ ShowMacroFrame
 ShowMinimapPingerNameFrame
 ShowProductAndMeterialList
 ShowUIPanel
+SignIn
 signup_nonce_check
 signup_nonce_fields
 simAddBanner
@@ -6708,6 +6698,7 @@ strokeJoin()
 strokeWeight()
 SubJobLimit
 submit_button
+SubmitReport
 subset()
 SubSortDropDown_Click
 SubSortDropDown_OnLoad
@@ -6858,6 +6849,7 @@ TerrainShaderDetailSlider_GetValue
 TerrainShaderDetailSlider_SetValue
 TerrainTextureDetailSlider_GetValue
 TerrainTextureDetailSlider_SetValue
+test
 TestFrame_Update
 TEXT
 Text Area
@@ -6991,6 +6983,7 @@ TransformVector
 Transients
 translate()
 TravelPet
+TravelReport
 TreeView_DelFolder
 TreeView_DelItem
 TreeView_GetCollect
@@ -7048,6 +7041,7 @@ TutorialFrame_OnTradeFrameShow
 TutorialFrame_OnWhisper
 TutorialFrame_OnZoneChange
 TWO_PI
+TwoFactorAuth
 type
 Typography
 UI_QuestBook_QuestDetailToggle_OnClick
@@ -7265,6 +7259,7 @@ update_site_option
 update_user_meta
 update_user_option
 update_user_status
+UpdateAccount
 UpdateAreaMapFrameSize
 UpdateBindingsListView
 UpdateCenterAnchor
@@ -7275,10 +7270,13 @@ UpdateCharacterSelection
 UpdateKeyBindingButton
 UpdateLevelUpNeedsPrompt
 updatePixels()
+UpdatePolicy
 UpdateQueueFrameInfo
+UpdateReceipt
 UpdateRecipeListCaption
 UpdateSendMailGroup
 UpdateTitleInfo
+UpdateTransaction
 UpdateWorldMapFrameAlpha
 UpdateWorldMapFrameSize
 upload_is_file_too_big
@@ -7299,6 +7297,7 @@ UseExtraAction
 UseImplementAction
 UseItemByName
 UsePetAction
+User
 user_can
 user_pass_ok
 UserAgreement_OnHide
@@ -7311,6 +7310,7 @@ UseSelfRevive
 UseSkill
 utf8_uri_encode
 UtilityExpenseMgmt
+VacationDelegate
 validate_current_theme
 validate_file
 validate_file_to_edit
