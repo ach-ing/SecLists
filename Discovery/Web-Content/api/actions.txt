@@ -110,6 +110,8 @@ generate
 Generate
 get
 Get
+get_by_id
+Get_by_id
 go
 Go
 group
@@ -128,6 +130,8 @@ latest
 Latest
 level
 Level
+limit
+Limit
 link
 Link
 list
@@ -148,12 +152,14 @@ post
 Post
 preserve
 Preserve
+print
+Print
 produce
 Produce
 promote
 Promote
-put
 Put
+put
 queue
 Queue
 quit
@@ -172,6 +178,10 @@ register
 Register
 remove
 Remove
+request
+Request
+request_parameters
+Request_parameters
 restore
 Restore
 restrict
